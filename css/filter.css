@@ -1,0 +1,73 @@
+
+  
+#myBtnContainer{
+  text-align: center;
+}
+  
+
+  
+ 
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .my-work .row,
+  .row > .column {
+    padding: 0px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .my-work .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+  }
+  
+  /* Clear floats after rows */
+  .my-work .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .my-work .content {
+    background-color: #000000;
+    padding: 5px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .my-work .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .my-work .btn {
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 45px;
+    cursor: pointer;
+    background: #FFD600;
+    border-radius: 10px;
+    
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .my-work .btn:hover {
+    border: 2px solid #FFD600;
+box-sizing: border-box;
+border-radius: 10px;
+background: #FFD600;
+box-shadow: 0px 4px 4px rgba(215, 181, 4, 0.63), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+  }
+  
+  /* Add a dark background color to the active button */
+  .my-work .btn.active {
+    border: 1px solid #FFD600;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #FFD600;
+    
+     box-shadow: 0px 4px 4px rgba(215, 181, 4, 0.63), inset 0px 4px 4px rgba(0, 0, 0, 0.3), inset 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  }
