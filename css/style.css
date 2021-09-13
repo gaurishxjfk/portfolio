@@ -512,7 +512,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 550px;
   overflow-y: hidden;
 }
 
@@ -525,6 +524,11 @@
 
 .about-me .abtme-img {
   margin-left: 7%;
+}
+
+.about-me .abtme-img img {
+  height: auto;
+  width: 1180px;
 }
 
 .about-me .abtme-info {
@@ -649,7 +653,7 @@
 
 @media only screen and (max-width: 700px) {
   .about-me {
-    height: 680px;
+    height: 830px;
   }
   .about-me .abtme-img img {
     width: 46%;
@@ -675,7 +679,7 @@
 
 @media only screen and (max-width: 600px) {
   .about-me {
-    height: 630px;
+    height: 830px;
   }
   .about-me .abtme-img img {
     height: 270px;
@@ -738,7 +742,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 660px;
+    height: 860px;
   }
   .about-me .abtme {
     -webkit-box-orient: vertical;
@@ -777,7 +781,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 660px;
+    height: 860px;
   }
   .about-me .abtme {
     -webkit-box-orient: vertical;
@@ -952,6 +956,31 @@
   padding-top: 30px;
 }
 
+.my-work .project-section {
+  margin-top: 1%;
+  padding: 3%;
+  text-align: center;
+}
+
+.my-work .project-section .container {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 3%;
+  border: 3px solid #FFD600;
+  border-radius: 15px;
+}
+
+.my-work .project-section .container h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #FFD600;
+  line-height: 2.5rem !important;
+}
+
+.my-work .project-section .container p {
+  color: #FFD600;
+}
+
 @media only screen and (max-width: 510px) {
   .banner {
     width: 100%;
@@ -961,5 +990,232 @@
     font-size: 28px !important;
     padding-top: 10px;
   }
+}
+
+footer {
+  background-color: #000000;
+}
+
+footer .foot-design {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  padding: 1%;
+  background-color: #FFD600;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .foot-design p {
+  font-weight: bold;
+  color: #000000;
+  text-shadow: #000000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.proj-sec {
+  background-color: #000000;
+}
+
+.proj-sec .container {
+  margin-left: auto;
+  padding: 2%;
+  text-align: center;
+  border: 3px solid #FFD600;
+  border-radius: 15px;
+  width: 75%;
+}
+
+.proj-sec .container h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #FFD600;
+  line-height: 2.5rem !important;
+}
+
+.proj-sec .container p {
+  color: #FFD600;
+}
+
+.proj-sec .container button {
+  border-radius: 20px;
+  height: 2.4rem;
+  width: 8.5rem;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.proj-sec .container .btn-demo {
+  background: #000000;
+  color: #FFD600;
+  border: .2rem solid #FFD600;
+}
+
+.proj-sec .container .btn-demo:hover {
+  color: #000000;
+  background: #FFD600;
+  border: .2rem solid #000000;
+  -webkit-box-shadow: 0 0 13px #FFD600;
+          box-shadow: 0 0 13px #FFD600;
+}
+
+.proj-sec .container .btn-source {
+  color: #000000;
+  background: #FFD600;
+  border: .2rem solid #000000;
+}
+
+.proj-sec .container .btn-source:hover {
+  background: #000000;
+  color: #FFD600;
+  border: .2rem solid #FFD600;
+  -webkit-box-shadow: 0 0 13px #FFD600;
+          box-shadow: 0 0 13px #FFD600;
+}
+
+@media only screen and (max-width: 1268px) {
+  .proj-sec {
+    background-color: #000000;
+  }
+  .proj-sec .container {
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    border: 3px solid #FFD600;
+    border-radius: 15px;
+    width: 75%;
+  }
+  .proj-sec .container h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #FFD600;
+    line-height: 2.5rem !important;
+  }
+  .proj-sec .container p {
+    color: #FFD600;
+  }
+  .proj-sec .container button {
+    border-radius: 20px;
+    height: 2.4rem;
+    width: 8.5rem;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .proj-sec .container .btn-demo {
+    background: #000000;
+    color: #FFD600;
+    border: .1rem solid #FFD600;
+  }
+  .proj-sec .container .btn-source {
+    color: #000000;
+    background: #FFD600;
+    border: .1rem solid #000000;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .proj-sec {
+    background-color: #000000;
+  }
+  .proj-sec .container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    text-align: center;
+    border: 3px solid #FFD600;
+    border-radius: 15px;
+  }
+  .proj-sec .container h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #FFD600;
+    line-height: 2.5rem !important;
+  }
+  .proj-sec .container p {
+    color: #FFD600;
+  }
+  .proj-sec .container button {
+    border-radius: 20px;
+    height: 2.4rem;
+    width: 8.5rem;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .proj-sec .container .btn-demo {
+    background: #000000;
+    color: #FFD600;
+    border: .1rem solid #FFD600;
+  }
+  .proj-sec .container .btn-source {
+    color: #000000;
+    background: #FFD600;
+    border: .1rem solid #000000;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .proj-sec {
+    background-color: #000000;
+  }
+  .proj-sec .container {
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    border: 3px solid #FFD600;
+    border-radius: 15px;
+    width: 80%;
+  }
+  .proj-sec .container h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FFD600;
+    line-height: 2.5rem !important;
+  }
+  .proj-sec .container p {
+    color: #FFD600;
+    font-size: .8rem;
+  }
+  .proj-sec .container button {
+    border-radius: 20px;
+    height: 2rem;
+    width: 8rem;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: .8rem;
+  }
+  .proj-sec .container .btn-demo {
+    background: #000000;
+    color: #FFD600;
+    border: .1rem solid #FFD600;
+  }
+  .proj-sec .container .btn-source {
+    color: #000000;
+    background: #FFD600;
+    border: .1rem solid #000000;
+  }
+}
+
+.my-work {
+  color: #FFD600;
+}
+
+.my-work .home-icon {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  color: #FFD600;
+}
+
+.my-work .home-icon i {
+  color: #FFD600;
 }
 /*# sourceMappingURL=style.css.map */

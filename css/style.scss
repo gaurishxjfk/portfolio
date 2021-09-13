@@ -89,6 +89,8 @@ $yellow : #FFD600;
 
 }
 
+
+
 @media only screen and (max-width: 950px){
     .hero{
         .dev{     
@@ -524,13 +526,19 @@ $yellow : #FFD600;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 550px;
+    
     overflow-y: hidden;
     .abtme{
         display: flex;
         overflow-y: hidden;
+      //  height: 200px;
         &-img{
             margin-left: 7%;
+            img{
+                height: auto;
+                width: 1180px;
+            }
+           
         }
         &-info{
             margin-right: 2%;
@@ -661,7 +669,7 @@ $yellow : #FFD600;
 }
 @media only screen and (max-width: 700px){
     .about-me{
-        height: 680px;
+        height: 830px;
        .abtme{            
             &-img{
                 img{
@@ -692,7 +700,7 @@ $yellow : #FFD600;
 }
 @media only screen and (max-width: 600px){
     .about-me{
-        height: 630px;
+        height: 830px;
         .abtme{            
             &-img{
                 img{
@@ -760,7 +768,7 @@ $yellow : #FFD600;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 660px;
+        height: 860px;
         .abtme{
 
             flex-direction: column;
@@ -800,7 +808,7 @@ $yellow : #FFD600;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 660px;
+        height: 860px;
         .abtme{
 
             flex-direction: column;
@@ -994,6 +1002,30 @@ $yellow : #FFD600;
         }
 
     }
+    .project-section{
+        margin-top: 1%;
+        padding : 3%;
+        text-align: center;
+        .container{
+            margin-left: 10%;
+            margin-right: 10%;
+            padding : 3%;
+            
+            border: 3px solid $yellow;
+            border-radius: 15px;
+          
+            h1{
+                
+                font-size: 1.6rem;
+                font-weight: bold;
+                color: $yellow ;
+                line-height: 2.5rem !important;
+            }
+            p{
+                color: $yellow ;
+            }
+        } 
+    }
 }
 @media only screen and (max-width: 510px){
     .banner{
@@ -1008,3 +1040,212 @@ $yellow : #FFD600;
 
     }
 }
+footer{
+    background-color: $black;
+.foot-design{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    padding: 1%;
+    background-color: $yellow;
+    align-items: center;
+    p{
+        font-weight: bold;
+        color: $black;
+        text-shadow: $black;
+        align-items: center;
+    }
+}
+}
+
+.proj-sec{
+    background-color: $black;
+    .container{
+        margin-left:auto;
+        padding : 2%;
+        text-align: center;
+        border: 3px solid $yellow;
+        border-radius: 15px;
+        width: 75%;
+        h1{
+            
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: $yellow ;
+            line-height: 2.5rem !important;
+        }
+        p{
+            color: $yellow ;
+        }
+        button{
+            border-radius: 20px;
+            height: 2.4rem;
+            width: 8.5rem;
+            outline: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .btn-demo{
+            background: #000000;
+            color: #FFD600;
+            border: .2rem solid #FFD600 ;
+            &:hover{
+                color : #000000;
+            background : #FFD600;
+            border: .2rem solid #000000;
+            box-shadow: 0 0 13px #FFD600;
+            } 
+        }
+        .btn-source{
+            color : #000000;
+            background : #FFD600;
+            border: .2rem solid #000000;
+            &:hover{
+                background: #000000;
+                color: #FFD600;
+                border: .2rem solid #FFD600 ;
+                box-shadow: 0 0 13px #FFD600;
+            } 
+        }
+    } 
+}
+@media only screen and (max-width: 1268px){
+    .proj-sec{
+        background-color: $black;
+        .container{
+            margin:auto;
+            padding : 2%;
+            text-align: center;
+            border: 3px solid $yellow;
+            border-radius: 15px;
+          width: 75%;
+            h1{
+                
+                font-size: 1.6rem;
+                font-weight: bold;
+                color: $yellow ;
+                line-height: 2.5rem !important;
+            }
+            p{
+                color: $yellow ;
+            }
+            button{
+                border-radius: 20px;
+                height: 2.4rem;
+                width: 8.5rem;
+                outline: none;
+                font-weight: bold;
+                cursor: pointer;
+                font-size: 1rem;
+            }
+            .btn-demo{
+                background: #000000;
+                color: #FFD600;
+                border: .1rem solid #FFD600 ;
+            }
+            .btn-source{
+                color : #000000;
+                background : #FFD600;
+                border: .1rem solid #000000;
+            }
+        } 
+    }
+}
+@media only screen and (max-width: 968px){
+    .proj-sec{
+        background-color: $black;
+        .container{
+            margin-left: 10%;
+            margin-right: 10%;
+            padding : 2%;
+            text-align: center;
+            border: 3px solid $yellow;
+            border-radius: 15px;
+          
+            h1{
+                
+                font-size: 1.6rem;
+                font-weight: bold;
+                color: $yellow ;
+                line-height: 2.5rem !important;
+            }
+            p{
+                color: $yellow ;
+            }
+            button{
+                border-radius: 20px;
+                height: 2.4rem;
+                width: 8.5rem;
+                outline: none;
+                font-weight: bold;
+                cursor: pointer;
+                font-size: 1rem;
+            }
+            .btn-demo{
+                background: #000000;
+                color: #FFD600;
+                border: .1rem solid #FFD600 ;
+            }
+            .btn-source{
+                color : #000000;
+                background : #FFD600;
+                border: .1rem solid #000000;
+            }
+        } 
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .proj-sec{
+        background-color: $black;
+        .container{
+            margin: auto;
+            padding : 2%;
+            text-align: center;
+            border: 3px solid $yellow;
+            border-radius: 15px;
+          width: 80%;
+            h1{
+                
+                font-size: 1rem;
+                font-weight: bold;
+                color: $yellow ;
+                line-height: 2.5rem !important;
+            }
+            p{
+                color: $yellow ;
+                font-size: .8rem;
+            }
+            button{
+                border-radius: 20px;
+                height: 2rem;
+                width: 8rem;
+                outline: none;
+                font-weight: bold;
+                cursor: pointer;
+                font-size: .8rem;
+            }
+            .btn-demo{
+                background: #000000;
+                color: #FFD600;
+                border: .1rem solid #FFD600 ;
+            }
+            .btn-source{
+                color : #000000;
+                background : #FFD600;
+                border: .1rem solid #000000;
+            }
+        } 
+    }
+}
+.my-work{color: #FFD600;
+    .home-icon{
+        text-align: center;
+        width: 100%;
+        margin: auto;color: #FFD600;
+        i{
+            color: #FFD600;
+        }
+    }
+}
+
