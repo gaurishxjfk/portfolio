@@ -633,7 +633,7 @@
     width: 250px;
   }
   .about-me .abtme-info {
-    margin-top: -10%;
+    margin-top: 15%;
     margin-right: 5%;
   }
   .about-me .abtme-info__heading {
@@ -659,7 +659,7 @@
     width: 46%;
   }
   .about-me .abtme-info {
-    margin-top: -5%;
+    margin-top: 15%;
     margin-right: 5%;
   }
   .about-me .abtme-info__heading {
@@ -686,7 +686,7 @@
     width: auto;
   }
   .about-me .abtme-info {
-    margin-top: -5%;
+    margin-top: 15%;
     margin-right: 5%;
   }
   .about-me .abtme-info__heading {
@@ -957,14 +957,14 @@
 }
 
 .my-work .project-section {
-  margin-top: 1%;
+  margin: auto;
+  width: 80%;
   padding: 3%;
   text-align: center;
+  width: 80%;
 }
 
 .my-work .project-section .container {
-  margin-left: 10%;
-  margin-right: 10%;
   padding: 3%;
   border: 3px solid #FFD600;
   border-radius: 15px;

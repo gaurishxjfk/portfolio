@@ -645,7 +645,7 @@ $yellow : #FFD600;
                 }
             }
             &-info{
-                margin-top: -10%;
+                margin-top: 15%;
                 margin-right: 5%;
                 &__heading{
                       font-size: 26px;
@@ -677,7 +677,7 @@ $yellow : #FFD600;
                 }
             }
             &-info{
-                margin-top: -5%;
+                margin-top: 15%;
                 margin-right: 5%;
                 &__heading{
                       font-size: 24px;
@@ -709,7 +709,7 @@ $yellow : #FFD600;
                 }
             }
             &-info{
-                margin-top: -5%;
+                margin-top: 15%;
                 margin-right: 5%;
                 &__heading{
                       font-size: 22px;
@@ -1003,12 +1003,13 @@ $yellow : #FFD600;
 
     }
     .project-section{
-        margin-top: 1%;
+        margin: auto;
+        width: 80%;
         padding : 3%;
         text-align: center;
+        width: 80%;
         .container{
-            margin-left: 10%;
-            margin-right: 10%;
+           
             padding : 3%;
             
             border: 3px solid $yellow;
